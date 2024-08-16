@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class GoogleMapsAPI {
     //API stuff
-    private static final String API_KEY = "AIzaSyA13RWBMDdGnm9KAfY8K45V44rjHKo-cRw"; // Replace with your actual API key
+    private static final String API_KEY = "Api Key"; //Replace with your actual API key
 
     /**
      * Finds nearby restaurants based on latitude and longitude.
