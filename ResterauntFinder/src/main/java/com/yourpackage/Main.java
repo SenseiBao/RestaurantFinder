@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         //API stuff
         GeoApiContext context = new GeoApiContext.Builder()
-                .apiKey("AIzaSyA13RWBMDdGnm9KAfY8K45V44rjHKo-cRw")
+                .apiKey("API key") //Replace with actual API key
                 .build();
 
         //scanners to find user latitude and longitude
@@ -37,10 +37,6 @@ public class Main {
                 myScanner.next();
             }
         }
-        /* this is test values
-        double latitude = 38.8027;
-        double longitude = -77.3010;
-        */
 
         try {
             //Searches for places closest to the location
